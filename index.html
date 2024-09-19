@@ -10,19 +10,19 @@
     <h1>Registration Form</h1>
     <div>
         <label for="name">Names</label>
-        <input type= name " id="name" name="name" placeholder="Full name" required>   
+        <input type="name" name="name" placeholder="Full name" required>   
     </div> 
 <br>
 <div>
     <label for="username">Username</label>
-    <input type="username" id="Username" name="Username" placeholder="Username" required>
+    <input type="text" id="Username" name="Username" placeholder="Username" required>
 </div>
 <br>
 <div>
-    <label for="birthdate">Birthdate</label>
-    <input type="birthdate" id="birthdate" name="birthdate">
+    <label for="birthdate">date</label>
+    <input type="date" id="birthdate" name="birthdate">
 </div>
-<br>
+<br> 
 <div>
     <label for="email"> Email</label>
     <input type="email" id="Email" name="Email">
@@ -30,12 +30,15 @@
 <br>
 <div>
 <label for="upload a file"> Upload a file</label>
-<input type="file" id="file" name="file" required>
+<input type="upload a file" id=" upload a file" name=" upload a file" required>
 </div>
 <br>
 <div>
-    <label for="country"> Country of origin</label>
-    <input type="search country" id="country" name="country">
+    <select name="country" id="country" >
+    <option value="Ghana">Ghana</option>
+    <option value="south Africa"> south Africa</option>
+    <option value="Nigeria">Nigeria</option>
+    </select>
 </div>
 <br>
 <div>
@@ -44,8 +47,9 @@
 </div>
 <br>
 <div>
-    <label for="submit">Submit</label>
-    <input type="submit" id="Submit" name="Submit">
+    <form action="submit">
+    <input type="submit" value="submit">
+    </form>
 </div>
 </html>
 
